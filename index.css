@@ -799,7 +799,7 @@ footer{
         left: 200px;
     }
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:375px){
     .left{
         width: 60%; 
     }
@@ -815,10 +815,10 @@ footer{
     }
     .middle{
         padding-left: 0;
-        margin-top: 40px;
+        margin-top: 10px !important;
     }
     .middle .bt {
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
     .right1 .box{
         width: 130px;
@@ -891,14 +891,19 @@ footer{
         font-size: 25px;
     }
     .main{
-        margin-top: 400px;
+        margin-top: 310px;
+    }
+    .button button{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 0;
     }
     .middle{
         padding-left: 0;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .middle .bt {
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
     .right1 .box{
         width: 130px;
