@@ -258,28 +258,6 @@ button{
     padding: 5px 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     width: 100%;
     background-color: #7cb8eb;
@@ -369,7 +347,7 @@ footer{
         display: none;
         clear: both;
         position: absolute;
-        top: 150px;
+        top: 170px;
         z-index: 2;
     }
     .nav ul li{
@@ -390,6 +368,9 @@ footer{
        left: 100px;
        top: 30px;
        z-index: 1;
+   }
+   .button button{
+    margin-left: 0;
    }
    
    
@@ -422,5 +403,148 @@ footer{
     }
     .footer-bottom{
         font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .left{
+        width: 60%; 
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu{
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .main h1{
+        font-size: 25px;
+        margin-top: 100px;
+    }
+    .main p{
+        margin-top: 80px;
+    }
+    .button button{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+    .right1 h1{
+        font-size: 30px;
+    }
+    .box p{
+        font-size: 12px;
+    }
+    .left1{
+        width: 100%;
+        margin: 20px auto 0;
+        float: left;
+        
+    }
+    .left1 form{
+        padding: 10px;
+    }
+    form input{
+        width: 92%;
+        margin-right: 0;
+    }
+    form select{
+        width: 100%;
+        outline: none;
+    }
+    form textarea{
+        width: 95%;
+    }
+    button{
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+    .footer .list{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+    .footer .list li{
+        padding: 10px 13px 0 0
+    }
+    .footer-bottom {
+        font-size: 8px;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .bottom-right{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width:414px){
+    .left{
+        width: 60%; 
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu{
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .main h1{
+        font-size: 25px;
+        margin-top: 100px;
+    }
+    .main p{
+        margin-top: 80px;
+    }
+    .button button{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+    .right1 h1{
+        font-size: 30px;
+    }
+    .box p{
+        font-size: 12px;
+    }
+    .left1{
+        width: 100%;
+        margin: 20px auto 0;
+        float: left;
+        
+    }
+    .left1 form{
+        padding: 10px;
+    }
+    form input{
+        width: 92%;
+        margin-right: 0;
+    }
+    form select{
+        width: 100%;
+        outline: none;
+    }
+    form textarea{
+        width: 95%;
+    }
+    button{
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+    .footer .list{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+    .footer .list li{
+        padding: 10px 13px 0 0
+    }
+    .footer-bottom {
+        font-size: 8px;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .bottom-right{
+        padding-left: 0;
     }
 }

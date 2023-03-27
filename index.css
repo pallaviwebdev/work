@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
+   
 }
 .clearfix::after {
     content: "";
@@ -80,10 +81,10 @@ nav{
 }
 
 nav ul li .act:active{
-    color: #7cb8eb;
+    color: #2f97f1;
 } 
 nav ul li .act:visited{
-    color: #7cb8eb;
+    color: #2f97f1;
 }
 
 nav .logo span{
@@ -102,7 +103,7 @@ nav .logo span{
     color: #fff;
     display: block;
     padding: 0 15px;
-    line-height: 40px;
+    line-height: 30px;
     font-size: 17px;
     margin-top: 25px;
 }
@@ -357,6 +358,7 @@ button{
 }
 .b1{
     padding-top: 10px; 
+    color: #7cb8eb;
 }
 .b1 button{
     padding: 15px 30px ;
@@ -471,7 +473,7 @@ i .blue{
 }
 .move{
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
 }
 /* brand-container */
 .brand-container{
@@ -650,9 +652,10 @@ footer{
         display: none;
         clear: both;
         position: absolute;
-        top: 90px;
-        border-radius: 20px;
+        top: 120px;
+        /* border-radius: 20px; */ 
         z-index: 2;
+    
     }
     .nav ul li{
         display: flex;
@@ -795,5 +798,163 @@ footer{
     .right1 .box{
         left: 200px;
     }
+}
+@media only screen and (max-width:380px){
+    .left{
+        width: 60%; 
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu{
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .main h1{
+        font-size: 20px;
+    }
+    .middle{
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .middle .bt {
+      margin-bottom: 25px;
+    }
+    .right1 .box{
+        width: 130px;
+        left: 150px;
+    }
+    .right1 .box p{
+       padding: 10px;
+    }
+    .right1 .box h4{
+       padding: 10px 0 5px 10px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .offer .l{
+        width: 85%;
+    }
+    .t1 h2{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .b1{
+        padding-left: 19px;
+        padding-right: 0;
+    }
+    .text2 h1{
+        font-size: 30px;
+    }
+    .icon{
+        padding-left: 30px;
+    }
+    .trusted h2{
+        padding: 0;
+    }
+    .woo{
+        top: 0;
+        padding-top: 0;
+        margin-top: 5px;
+    }
+    .footer .list{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+    .footer .list li{
+        padding: 10px 13px 0 0
+    }
+    .footer-bottom {
+        font-size: 8px;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .bottom-right{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width:414px){
+    .left{
+        width: 60%; 
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu{
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .main h1{
+        font-size: 25px;
+    }
+    .main{
+        margin-top: 400px;
+    }
+    .middle{
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .middle .bt {
+      margin-bottom: 25px;
+    }
+    .right1 .box{
+        width: 130px;
+        left: 150px;
+    }
+    .right1 .box p{
+       padding: 10px;
+    }
+    .right1 .box h4{
+       padding: 10px 0 5px 10px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .offer .l{
+        width: 85%;
+    }
+    .t1 h2{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .b1{
+        padding-left: 19px;
+        padding-right: 0;
+    }
+    .text2 h1{
+        font-size: 30px;
+    }
+    .icon{
+        padding-left: 30px;
+    }
+    .trusted h2{
+        padding: 0;
+    }
+    .woo{
+        top: 0;
+        padding-top: 0;
+        margin-top: 5px;
+    }
+    .footer .list{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+    .footer .list li{
+        padding: 10px 13px 0 0
+    }
+    .footer-bottom {
+        font-size: 8px;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .bottom-right{
+        padding-left: 0;
+    }
+    
 }
 

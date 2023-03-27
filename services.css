@@ -251,6 +251,7 @@ nav span{
 }
 .b1{
     padding-top: 10px; 
+    color: #7cb8eb;
 
 }
 .b1 button{
@@ -367,7 +368,7 @@ footer{
         display: none;
         clear: both;
         position: absolute;
-        top: 150px;
+        top: 170px;
         z-index: 2;
     }
     .nav ul li{
@@ -431,5 +432,129 @@ footer{
     }
     .footer-bottom{
         font-size: 10px;
+    }
+}
+@media only screen and (max-width:380px){
+    .left{
+        width: 60%;
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu{
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .main h1{
+        font-size: 20px;
+         margin-top: 100px;
+    }
+    .main p{
+        font-size: 10px;
+        margin-top: 80px;
+    }
+    .button button{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+    .box-left .l{
+        width: 100%;
+        padding: 0;
+    }
+    .r{
+        width: 100%;
+    }
+    .t1 h2{
+        padding: 0 10px 0 15px;
+    }
+    .t1 p{
+        padding: 0 10px 0 15px;
+    }
+    .b1{
+        padding: 0 10px 15px 15px;
+    }
+    .box-right .l{
+        width: 100%;
+        padding: 0;
+    }
+    .footer .list{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+    .footer .list li{
+        padding: 10px 13px 0 0
+    }
+    .footer-bottom {
+        font-size: 8px;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .bottom-right{
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width:414px){
+    .left{
+        width: 60%;
+    }
+    .menu a{
+        font-size: 20px;
+    }
+    .menu{
+        margin-right: 0;
+        margin-top: 35px;
+    }
+    .main h1{
+        font-size: 20px;
+         margin-top: 100px;
+    }
+    .main p{
+        font-size: 10px;
+        margin-top: 80px;
+    }
+    .button button{
+        font-size: 10px;
+        padding: 5px 10px;
+        margin-top: 0;
+    }
+    .box-left .l{
+        width: 100%;
+        padding: 0;
+    }
+    .r{
+        width: 100%;
+    }
+    .t1 h2{
+        padding: 0 10px 0 15px;
+    }
+    .t1 p{
+        padding: 0 10px 0 15px;
+    }
+    .b1{
+        padding: 0 10px 15px 15px;
+    }
+    .box-right .l{
+        width: 100%;
+        padding: 0;
+    }
+    .footer .list{
+        font-size: 15px;
+        padding-left: 0;
+        
+    }
+    .footer .list li{
+        padding: 10px 13px 0 0
+    }
+    .footer-bottom {
+        font-size: 8px;
+        margin: 0;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+    .bottom-right{
+        padding-left: 0;
     }
 }
